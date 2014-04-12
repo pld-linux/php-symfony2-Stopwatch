@@ -3,18 +3,19 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	Symfony2 Stopwatch Component
 Name:		php-symfony2-Stopwatch
-Version:	2.3.4
+Version:	2.4.3
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	http://pear.symfony.com/get/%{pearname}-%{version}.tgz
-# Source0-md5:	f0b1753dfd9c3af1b51817abec8ebfdb
-URL:		http://pear.symfony.com/package/Stopwatch/
+# Source0-md5:	3a0ffb6a25220b21410ddd39741a8bda
+URL:		http://symfony.com/doc/2.4/components/stopwatch.html
 BuildRequires:	php-channel(pear.symfony.com)
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.610
 Requires:	php(core) >= %{php_min_version}
+Requires:	php(spl)
 Requires:	php-channel(pear.symfony.com)
 Requires:	php-pear >= 4:1.3.10
 BuildArch:	noarch
