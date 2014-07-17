@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	Symfony2 Stopwatch Component
 Name:		php-symfony2-Stopwatch
-Version:	2.4.3
+Version:	2.4.4
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	http://pear.symfony.com/get/%{pearname}-%{version}.tgz
-# Source0-md5:	3a0ffb6a25220b21410ddd39741a8bda
+# Source0-md5:	1bb56af5446753819dc3e9ca0d9ab7c6
 URL:		http://symfony.com/doc/2.4/components/stopwatch.html
 BuildRequires:	php-channel(pear.symfony.com)
 BuildRequires:	php-pear-PEAR
