@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	Symfony2 Stopwatch Component
 Name:		php-symfony2-Stopwatch
-Version:	2.7.5
+Version:	2.7.7
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	https://github.com/symfony/%{package}/archive/v%{version}/%{package}-%{version}.tar.gz
-# Source0-md5:	b96ea7758a32b6c2493945adf5d7a00d
+# Source0-md5:	f3e80e3c8eb5eb7cae1e05a0135991ce
 URL:		http://symfony.com/doc/2.7/components/stopwatch.html
 BuildRequires:	phpab
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -26,7 +26,7 @@ Stopwatch component provides a way to profile code.
 %setup -q -n stopwatch-%{version}
 
 %build
-phpab -n -e '*/Tests/*' -o autoloader.php .
+phpab -n -e '*/Tests/*' -o autoload.php .
 
 %install
 rm -rf $RPM_BUILD_ROOT
