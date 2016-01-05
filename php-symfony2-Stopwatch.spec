@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	Symfony2 Stopwatch Component
 Name:		php-symfony2-Stopwatch
-Version:	2.7.7
+Version:	2.7.8
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	https://github.com/symfony/%{package}/archive/v%{version}/%{package}-%{version}.tar.gz
-# Source0-md5:	f3e80e3c8eb5eb7cae1e05a0135991ce
+# Source0-md5:	8b7daaabbab4c88eef2aa13f8e06103a
 URL:		http://symfony.com/doc/2.7/components/stopwatch.html
 BuildRequires:	phpab
 BuildRequires:	rpmbuild(macros) >= 1.610
