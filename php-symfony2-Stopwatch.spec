@@ -1,6 +1,5 @@
 %define		package	Stopwatch
 %define		php_min_version 5.3.9
-%include	/usr/lib/rpm/macros.php
 Summary:	Symfony2 Stopwatch Component
 Name:		php-symfony2-Stopwatch
 Version:	2.7.8
