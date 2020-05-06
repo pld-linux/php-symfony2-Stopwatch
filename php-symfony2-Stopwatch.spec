@@ -2,12 +2,12 @@
 %define		php_min_version 5.3.9
 Summary:	Symfony2 Stopwatch Component
 Name:		php-symfony2-Stopwatch
-Version:	2.7.8
+Version:	2.8.52
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	https://github.com/symfony/%{package}/archive/v%{version}/%{package}-%{version}.tar.gz
-# Source0-md5:	8b7daaabbab4c88eef2aa13f8e06103a
+# Source0-md5:	a73840745e5d290d451dfbb321d688ca
 URL:		http://symfony.com/doc/2.7/components/stopwatch.html
 BuildRequires:	phpab
 BuildRequires:	rpmbuild(macros) >= 1.610
